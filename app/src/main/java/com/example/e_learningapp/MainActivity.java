@@ -1,5 +1,6 @@
 package com.example.e_learningapp;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -30,6 +31,7 @@ public class MainActivity<a> extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {   //asta e clasa in care runnuim cam tot codul. gotta figure out how to make more classes and stuff like that
         //so that I don't write all the code here in the main.
+        //DE FAPT AR TREBUI SA SCRII IN FUNCTIA onResume !!!
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
